@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    height:70px;
+    position: sticky;
+    top: 0;
+    background: rgba(248,247,244,0.8);
+    backdrop-filter: blur(10px);
+    
+}
+header,
+.hero,
+.about,
+.projects{
+    max-width:100%;
+    margin:auto;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    
+}
+.nav-right a{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.nav-right a:hover{
+    color:#2563EB;
+}
+.hero{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 4rem;
+}
+.left{
+    line-height: 1;
+}
+.small-txt {
+    
+    font-size:2rem;
+}
+.name{
+    font-size:4rem;
+    font-weight: 700;
+}
+.adj{
+    font-size: 3rem;
+}
+.noun{
+    font-size:5rem;
+    font-weight: 800;
+}
+.orb{
+    width: 320px;
+    height: 320px;
+
+    border-radius: 50%;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563EB,
+    #60A5FA
+    );
+
+    filter: blur(10px);
+
+    opacity: 0.9;
+}
+.card{
+    position:absolute;
+
+    background: rgba(255,255,255,0.7);
+
+    backdrop-filter: blur(10px);
+
+    padding: 1rem 1.5rem;
+
+    border-radius: 16px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+}
+.card1{
+    top:10%;
+    left:0;
+}
+
+.card2{
+    top:20%;
+    right:0;
+}
+
+.card3{
+    bottom:10%;
+    left:10%;
+}
+
+.card4{
+    bottom:20%;
+    right:5%;
+}
+
+
